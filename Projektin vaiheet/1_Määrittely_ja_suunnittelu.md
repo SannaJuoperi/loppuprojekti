@@ -1,6 +1,6 @@
 # Projektin ensimmäinen vaihe - Määrittely ja suunnittelu
 
-Projektissani luodaan kuusamolaiselle ravintolalle järjestelmä ruuan tilaamista ja pöytien varaamista varten. Seuraavaksi segmentoin asiakkaat erilisiin kuluttajaryhmiin samanlaisten tarpeiden tai ominaisuuksien mukaan. Jaottelun voi tehdä demografisten tietojen (ikä, sukupuoli, sijainti), kiinnostuksen kohteiden (elämäntyyli, ostohistoria) tai käyttäytymisen (verkkoaktiivisuus, kulutustottumukset) perusteella (Markkinoinnin trendit 2022). 
+Projektissani luodaan kuusamolaiselle ravintolalle järjestelmä ruuan tilaamista ja pöytien varaamista varten.  Seuraavaksi segmentoin asiakkaat erilisiin kuluttajaryhmiin samanlaisten tarpeiden tai ominaisuuksien mukaan. Jaottelun voi tehdä demografisten tietojen (ikä, sukupuoli, sijainti), kiinnostuksen kohteiden (elämäntyyli, ostohistoria) tai käyttäytymisen (verkkoaktiivisuus, kulutustottumukset) perusteella (Markkinoinnin trendit 2022). 
 
 ## 1. Käyttäjäpersoonat
 
@@ -10,25 +10,62 @@ Sosiaalinen media ja verkkosivujen olemassaolo ovat tärkeitä tapoja tavoittaa 
 
 Ravintolan verkkosivuilla löytyy tekstiä otsikko Vastuullisuudesta, josta pääsee lukemaan yrityksen vastuullisuudesta. Tietyille asiakasryhmille on tärkeää tukea yrityksiä, jotka huomioivat kestävän kehityksen ja ovat vastuullisia toimissaan. Tämän olen huomannut esimerkiksi hotelli- ja lentosivuilla, joilla vastuulliset yritykset nostetaan erityisesti muista palveluntarjoajista. 
 
-Asiakkaita rajaavia toimia ovat rajallinen pöytämäärä, ravintolan ja varsinkin keittiön aukioloajat, sijainti ja maksulliset tapahtumat. Nämä voivat olla asiakasmääriä hetkellisesti rajoittavia toimia. 
+Asiakkaita rajaavia toimia ovat sijainti, rajallinen pöytämäärä, ravintolan ja varsinkin keittiön aukioloajat. Nämä voivat olla asiakasmääriä hetkellisesti rajoittavia toimia. Kyseinen ravintola on tiloiltaan rajallinen, joten siellä ei livetapahtumia järjestetä, joten maksullisia tapahtumia ei tarvitse huomioida rajoittavissa toimissa. 
 
 ### Käyttäjäpersoona 1/3
 
-**Nimi:** Sanna Mallikas, 30v. ![alt text](image.png)
+![kuva1](image.png)
 
-**Titteli ja rooli:** Tieto- ja viestintätekniikan opiskelija. Töissä ohjaajana erityisammattioppilaitoksessa. 
+**Nimi:** Annika Mallikas, 30v. 
 
-**Kokemus palvelun käytöstä:** Sanna käy ravintolassa syömässä, koska hän on laskettelureissulla Rukalla ja nälkäinen päivän laskettelun jälkeen. Hän arvostaa nopeaa palvelua ja laadukasta ruokaa, koska Rukalla on monta ravintolaa, joista valita mieleisensä ruokapaikka. Sanna tarkistaa ravintolan ruokalistan etsiessään mieleistä ruokapaikkaa. 
+**Titteli ja rooli:** Työskentelee ohjaajana peruskoulussa. 
 
-**Tavoitetila:** Sanna toivoo löytävänsä ravintoloita, joissa on rento ilmapiiri sekä saa laadukasta ruokaa nopeasti ja vaivattomasti. Sanna arvostaa, että löytää etsimänsä tiedon nopeasti verkkosivulta ja voi siten tehdä nopeasti ostopäätöksen, mihin ravintolaan lähtee laskettelun jälkeen. Tavoitteena on löytää hyvän hinta-laatusuhteen omaavia lounasravintoloita laskettelurinteiden läheltä. 
+**Kokemus palvelun käytöstä:** Annika käy ravintolassa syömässä, koska hän on laskettelureissulla Rukalla ja nälkäinen päivän laskettelun jälkeen. Hän arvostaa nopeaa palvelua ja laadukasta ruokaa, koska Rukalla on monta ravintolaa, joista valita mieleisensä ruokapaikka. Annika tarkistaa ravintolan ruokalistan etsiessään mieleistä ruokapaikkaa. 
 
-**Miten ja miksi käyttää palvelua:** Sanna käyttää ravintolapalvelua matkustaessaan Rukan alueelle, joka tapahtuu pari kertaa vuoden aikana. Hän käy ravintolassa syömässä, koska ei halua valmistaa eväitä laskettelureissulle. Hän valitsee ravintolan sen sijainnin, ruokalistan ja palvelun nopeuden perusteella.  
+**Tavoitetila:** Annika toivoo löytävänsä ravintoloita, joissa on rento ilmapiiri sekä saa laadukasta ruokaa nopeasti ja vaivattomasti. Annika arvostaa, että löytää etsimänsä tiedon nopeasti verkkosivulta ja voi siten tehdä nopeasti ostopäätöksen, mihin ravintolaan lähtee laskettelun jälkeen. Tavoitteena on löytää hyvän hinta-laatusuhteen omaavia lounasravintoloita laskettelurinteiden läheltä. 
 
-**Mitä haasteita kohtaa palvelussa?**
+**Miten ja miksi käyttää palvelua:** 
+
+**Mitä haasteita kohtaa palvelussa?** Annika kohtaa haasteita ajoittain ravintolan ruuhka-aikoina, jolloin ravintola on täynnä ja istumapaikkaa on vaikeaa löytää. Ruuhka-aikaan palvelu on hitaampaa ja tilauksia joutuu odottamaan. Annika on huomannut, että saapumalla ravintolaan ennen laskettelurinteiden sulkeutumista klo 19 varmistaa parhaiten vapaan pöydän seurueelle ja rennon ruokailuhetken läheistensä kanssa. 
+
+### Käyttäjäpersoona 2/3
+
+![kuva2](image-1.png)
+
+**Nimi:** Lauri Meikäläinen, 40v.
+
+**Titteli ja rooli:** Työskentelee baarimestarina kuusamolaisessa baarissa.
+
+**Kokemus palvelun käytöstä:** Lauri on käyttänyt ravintolaa rentoutumiseen vapaa-ajalla. Hän on kokenut ravintolan palvelun laadukkaaksi ja ammattimaiseksi, mutta on kohdannut haasteita ruuhka-aikoina, jolloin palvelu on ollut tavallista hitaampaa. Lauri arvostaa yksinkertaisia verkkosivuja ja varauspalveluita, joista löytää etsimänsä tiedon nopeaa ja saa tehtyä varauksen ravintolaan parin klikkauksen avulla ilman soittoja ravintolaan kellon ajasta riippumatta. 
+
+**Tavoitetila:** Lauri toivoo löytävänsä ravintolan, joka tarjoaa ensiluokkaista palvelua ja tunnelmallisen ympäristön. Hän haluaa varata ravintolasta pöydän, jotta saa viettää aikaa ruokailun merkeissä ystävien kanssa. Hänelle on tärkeää, että syömään kutsutut henkilöt viihtyvät ravintolassa ja kaikki saavat ruokavalionsa mukaista ruokaa erityisruokavaliot huomioiden. Lauri arvostaa, että kaikkien tarpeet huomioidaan jo verkkosivuilta lähtien, jolloin hänen on helppoa ohjata ystäviä tarkastelemaan verkkosivuilta ruokalista etukäteen. Kansainvälisten ystävien varalta on tärkeää, että verkkosivut ovat myös englanniksi.
+
+**Mitä haasteita kohtaa palvelussa?** Laurille haasteellisia ovat ruuhka-ajat ja hitaat palvelutilanteet, jotka häiritsevät hänen aika-taulujaan vapaa-ajalla. Lisäksi hän arvostaa ravintoloita, joissa on mahdollisuus varata pöytiä etukäteen, mutta aina tämä ei ole mahdollista. Kiireisenä töissäkäyvänä miehenä hän arvostaa, että palvelu toimii luotettavasti verkkosivuilla. 
+
+### Käyttäjäpersoona 3/3
+
+![kuva3](hipster.jpg)
+
+**Nimi:** Tino Tuutori, 25v.
+
+**Titteli ja rooli:** Opiskelee tieto- ja viestintätekniikan insinööriksi ammattikorkeakoulussa toista vuotta.
+
+**Kokemus palvelun käytöstä:** Tino on käyttänyt ravintoloita pääasiassa opiskelijaelämänsä aikana erilaisten kulttuuri- ja haalaritapahtumien yhteydessä. Opiskelijana hän arvostaa edullisia vaihtoehtoja ravintoloissa. Hän valitsee ravintolat edullisuuden ja rennon ilmapiirin näkökulmasta. Väillä Tinon ruokapaikan valintaan vaikuttaa myös se, että saako sieltä tilattua ruokaa noudettavaksi. Tino seuraa ravintolaa sosiaalisessa mediassa ja ravintolan verkkosivuilta hän tarkistaa, mitä uusia burgereita ravintolassa tarjotaan. 
+
+**Tavoitetila:** Tinon tavoite on löytää ravintoloita, jotka tarjoavat rennon ja viihtyisän ilmapiirin, jossa voi viettää aikaa opiskelijatapahtumissa  vertaistensa ja ystävien kanssa. Toisinaan Tino tilaa ruokansa netistä ja nauttii sen majoittumispaikassaan mieluummin kuin ravintolassa. Hän arvostaa ravintoloita, joissa on edullisia vaihtoehtoja opiskelijabudjetille ja joissa voi tuntea olonsa tervetulleeksi. Verkkosivulla on tärkeää mainita opiskelija-alennukset ja tuottaa sisältöä sosiaalisesta mediaan, jolloin sivusto tavoittaa opiskelijat. 
+
+**Mitä haasteita kohtaa palvelussa?** Tino kohtaa haasteita tilanteissa, jolloin ravintola ei tarjoa riittävästi edullisia vaihtoehtoja opiskelijabudjetille tai ei ole rauhallista tilaa keskustelulle seurustelulle opiskelijatovereiden kanssa. Tino on kasvissyöjä, joten hänelle on tärkeää saada ruokavalionsa mukaista ruokavaihtoehto-ja ruokalistalta. Hänelle on tärkeää, että kasvisvaihtoehdot ovat korostettu merkein ruokalistassa. 
 
 ## 2. Käyttötapaukset ja tilanteet
 
-Lisää tekstiä.
+### Käyttäjäpersoona 1/3
+Annika käyttää ravintolapalvelua matkustaessaan Rukan alueelle, joka tapahtuu pari kertaa vuoden aikana. Hän käy ravintolassa syömässä, koska ei halua valmistaa eväitä laskettelureissulle. Hän valitsee ravintolan sen sijainnin, ruokalistan ja palvelun nopeuden perusteella.  Annikan tapauksessa yleisin tapaus on tarkistaa ravintolan aukioloajat ja ruokalista verkosta ennen ravintolaan saapumista. Annika on lomareissussa ja on valmis joustamaan aikatauluissaan mennessään ravintolaan, joten hän ei varaa pöytää etukäteen. 
+
+### Käyttäjäpersoona 2/3
+Lauri käyttää ravintolaa vapaa-ajallaan ajanviettoon ruokailun merkeissä ystäviensä ja työkavereidensa kanssa. Hän arvostaa ruokalistan löytämistä vaivattomasti verkkosivuilta ja helppoa varaustoimintoa. Paikkakunnalla asuvana hän yleensä varaa verkkosivuilla pöydän etukäteen varmistaakseen paikan saatavuuden haluttuna ajankohtana. 
+
+### Käyttäjäpersoona 3/3
+Tino käyttää ravintolapalveluita pääasiassa sosiaalisiin tapahtumiin ja kokoontumiin ystävien kanssa. Hän haluaa vapaa-ajan viettopaikan, jossa voi nauttia hyvästä ruuasta ja juomasta kohtuulliseen hintaan ja samalla viettää aikaa ystävien kanssa. Tinosta on hienoa, jos verkkosivulla pystyy ruuan tilaamaan etukäteen, jolloin hänen ei tarvitse kuin noutaa valitsemansa ruoka paikanpäältä ilman jonottamista. Yleisin tapa Tinolle on se, että hän käyttää ravintolaa ystävien kanssa seurusteluun ja ruokailuun. Hän hakee välillä ruokaa ravintolasta ja osallistuu illanviettoihin ravintolassa.
 
 ## 3. Käyttöliittymän prototyypit
 
