@@ -1,2 +1,2 @@
 # loppuprojekti
-Web-kehittämisen jatkokurssin loppuprojekti
+Web-kehittämisen jatkokurssin loppuprojekti. 
