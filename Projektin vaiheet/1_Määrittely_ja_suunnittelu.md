@@ -24,8 +24,6 @@ Asiakkaita rajaavia toimia ovat sijainti, rajallinen pöytämäärä, ravintolan
 
 **Tavoitetila:** Annika toivoo löytävänsä ravintoloita, joissa on rento ilmapiiri sekä saa laadukasta ruokaa nopeasti ja vaivattomasti. Annika arvostaa, että löytää etsimänsä tiedon nopeasti verkkosivulta ja voi siten tehdä nopeasti ostopäätöksen, mihin ravintolaan lähtee laskettelun jälkeen. Tavoitteena on löytää hyvän hinta-laatusuhteen omaavia lounasravintoloita laskettelurinteiden läheltä. 
 
-**Miten ja miksi käyttää palvelua:** 
-
 **Mitä haasteita kohtaa palvelussa?** Annika kohtaa haasteita ajoittain ravintolan ruuhka-aikoina, jolloin ravintola on täynnä ja istumapaikkaa on vaikeaa löytää. Ruuhka-aikaan palvelu on hitaampaa ja tilauksia joutuu odottamaan. Annika on huomannut, että saapumalla ravintolaan ennen laskettelurinteiden sulkeutumista klo 19 varmistaa parhaiten vapaan pöydän seurueelle ja rennon ruokailuhetken läheistensä kanssa. 
 
 ### Käyttäjäpersoona 2/3
@@ -40,11 +38,11 @@ Asiakkaita rajaavia toimia ovat sijainti, rajallinen pöytämäärä, ravintolan
 
 **Tavoitetila:** Lauri toivoo löytävänsä ravintolan, joka tarjoaa ensiluokkaista palvelua ja tunnelmallisen ympäristön. Hän haluaa varata ravintolasta pöydän, jotta saa viettää aikaa ruokailun merkeissä ystävien kanssa. Hänelle on tärkeää, että syömään kutsutut henkilöt viihtyvät ravintolassa ja kaikki saavat ruokavalionsa mukaista ruokaa erityisruokavaliot huomioiden. Lauri arvostaa, että kaikkien tarpeet huomioidaan jo verkkosivuilta lähtien, jolloin hänen on helppoa ohjata ystäviä tarkastelemaan verkkosivuilta ruokalista etukäteen. Kansainvälisten ystävien varalta on tärkeää, että verkkosivut ovat myös englanniksi.
 
-**Mitä haasteita kohtaa palvelussa?** Laurille haasteellisia ovat ruuhka-ajat ja hitaat palvelutilanteet, jotka häiritsevät hänen aika-taulujaan vapaa-ajalla. Lisäksi hän arvostaa ravintoloita, joissa on mahdollisuus varata pöytiä etukäteen, mutta aina tämä ei ole mahdollista. Kiireisenä töissäkäyvänä miehenä hän arvostaa, että palvelu toimii luotettavasti verkkosivuilla. 
+**Mitä haasteita kohtaa palvelussa?** Laurille haasteellisia ovat ruuhka-ajat ja hitaat palvelutilanteet, jotka häiritsevät hänen aika-taulujaan vapaa-ajalla. Lisäksi hän arvostaa ravintoloita, joissa on mahdollisuus varata pöytiä etukäteen, mutta aina tämä ei ole mahdollista. Kiireisenä töissä käyvänä miehenä hän arvostaa, että palvelu toimii luotettavasti verkkosivuilla. 
 
 ### Käyttäjäpersoona 3/3
 
-![kuva3](hipster.jpg)
+![kuva3](image-2.jpg)
 
 **Nimi:** Tino Tuutori, 25v.
 
