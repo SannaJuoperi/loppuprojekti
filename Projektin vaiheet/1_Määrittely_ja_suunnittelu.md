@@ -4,7 +4,7 @@ Projektissani luodaan kuusamolaiselle ravintolalle järjestelmä ruuan tilaamist
 
 ## 1. Käyttäjäpersoonat
 
-Ravintola sijaisee Rukatunturilla ja maantieteellisen segmentoinnin perusteella kuusamolaisen ravintolan asiakkaat ovat lähialueelta, matkalaisia ja turisteja. Iän puolesta ravintolan asiakkaat ovat aikuisia tai nuoria aikuisia, jotka tulevat syömään ravintolaan ulkoilma-aktiiviteettien jälkeen. Ravintola on esteettön ravintola, johon ovat tervetulleita pyörätuolilla tai rollaattorin avulla kulkevat, koirat ja lapset vanhempineen. 
+Ravintola sijaisee Rukatunturilla ja maantieteellisen segmentoinnin perusteella kuusamolaisen ravintolan asiakkaat ovat lähialueelta, matkalaisia ja turisteja. Iän puolesta ravintolan asiakkaat ovat aikuisia tai nuoria aikuisia, jotka tulevat syömään ravintolaan ulkoilma-aktiiviteettien jälkeen. Ravintola on esteetön ravintola, johon ovat tervetulleita pyörätuolilla tai rollaattorin avulla kulkevat, koirat ja lapset vanhempineen. 
 
 Sosiaalinen media ja verkkosivujen olemassaolo ovat tärkeitä tapoja tavoittaa uusia asiakkaita, jotka etsivä ruokapaikkaa lyhyellä varoitusajalla. Googlen teettämän kyselyn mukaan nuoret aikuiset tekevät päätösen alle tunnissa etsiessään ravintolaa (Lawson 2015). Rukan ravintolan sosiaalinen media tavoittaa yrityksen seuraajia, joihin burgerien ja ruokakuvat vetoavat. 
 
@@ -14,10 +14,17 @@ Asiakkaita rajaavia toimia ovat rajallinen pöytämäärä, ravintolan ja varsin
 
 ### Käyttäjäpersoona 1/3
 
-#### **Nimi: Sanna Mallikas, 30v. **
+**Nimi:** Sanna Mallikas, 30v. ![alt text](image.png)
 
-Titteli ja rooli: Sanna Mallikas, 30v.
+**Titteli ja rooli:** Tieto- ja viestintätekniikan opiskelija. Töissä ohjaajana erityisammattioppilaitoksessa. 
 
+**Kokemus palvelun käytöstä:** Sanna käy ravintolassa syömässä, koska hän on laskettelureissulla Rukalla ja nälkäinen päivän laskettelun jälkeen. Hän arvostaa nopeaa palvelua ja laadukasta ruokaa, koska Rukalla on monta ravintolaa, joista valita mieleisensä ruokapaikka. Sanna tarkistaa ravintolan ruokalistan etsiessään mieleistä ruokapaikkaa. 
+
+**Tavoitetila:** Sanna toivoo löytävänsä ravintoloita, joissa on rento ilmapiiri sekä saa laadukasta ruokaa nopeasti ja vaivattomasti. Sanna arvostaa, että löytää etsimänsä tiedon nopeasti verkkosivulta ja voi siten tehdä nopeasti ostopäätöksen, mihin ravintolaan lähtee laskettelun jälkeen. Tavoitteena on löytää hyvän hinta-laatusuhteen omaavia lounasravintoloita laskettelurinteiden läheltä. 
+
+**Miten ja miksi käyttää palvelua:** Sanna käyttää ravintolapalvelua matkustaessaan Rukan alueelle, joka tapahtuu pari kertaa vuoden aikana. Hän käy ravintolassa syömässä, koska ei halua valmistaa eväitä laskettelureissulle. Hän valitsee ravintolan sen sijainnin, ruokalistan ja palvelun nopeuden perusteella.  
+
+**Mitä haasteita kohtaa palvelussa?**
 
 ## 2. Käyttötapaukset ja tilanteet
 
