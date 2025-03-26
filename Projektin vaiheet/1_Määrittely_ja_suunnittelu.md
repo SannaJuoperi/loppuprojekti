@@ -1,6 +1,6 @@
 # Projektin ensimmäinen vaihe - Määrittely ja suunnittelu
 
-Projektissani luodaan kuusamolaiselle ravintolalle järjestelmä ruuan tilaamista ja pöytien varaamista varten.  Seuraavaksi segmentoin asiakkaat erilisiin kuluttajaryhmiin samanlaisten tarpeiden tai ominaisuuksien mukaan. Jaottelun voi tehdä demografisten tietojen (ikä, sukupuoli, sijainti), kiinnostuksen kohteiden (elämäntyyli, ostohistoria) tai käyttäytymisen (verkkoaktiivisuus, kulutustottumukset) perusteella (Markkinoinnin trendit 2022). 
+Projektissani luodaan kuusamolaiselle ravintolalle järjestelmä ruuan tilaamista ja pöytien varaamista varten. Seuraavaksi segmentoin asiakkaat erillisiin kuluttajaryhmiin samanlaisten tarpeiden tai ominaisuuksien mukaan. Jaottelun voi tehdä demografisten tietojen (ikä, sukupuoli, sijainti), kiinnostuksen kohteiden (elämäntyyli, ostohistoria) tai käyttäytymisen (verkkoaktiivisuus, kulutustottumukset) perusteella (Markkinoinnin trendit 2022). 
 
 ## 1. Käyttäjäpersoonat
 
@@ -48,7 +48,7 @@ Asiakkaita rajaavia toimia ovat sijainti, rajallinen pöytämäärä, ravintolan
 
 **Titteli ja rooli:** Opiskelee tieto- ja viestintätekniikan insinööriksi ammattikorkeakoulussa toista vuotta.
 
-**Kokemus palvelun käytöstä:** Tino on käyttänyt ravintoloita pääasiassa opiskelijaelämänsä aikana erilaisten kulttuuri- ja haalaritapahtumien yhteydessä. Opiskelijana hän arvostaa edullisia vaihtoehtoja ravintoloissa. Hän valitsee ravintolat edullisuuden ja rennon ilmapiirin näkökulmasta. Väillä Tinon ruokapaikan valintaan vaikuttaa myös se, että saako sieltä tilattua ruokaa noudettavaksi. Tino seuraa ravintolaa sosiaalisessa mediassa ja ravintolan verkkosivuilta hän tarkistaa, mitä uusia burgereita ravintolassa tarjotaan. 
+**Kokemus palvelun käytöstä:** Tino on käyttänyt ravintoloita pääasiassa opiskelijaelämänsä aikana erilaisten kulttuuri- ja haalaritapahtumien yhteydessä. Opiskelijana hän arvostaa edullisia vaihtoehtoja ravintoloissa. Hän valitsee ravintolat edullisuuden ja rennon ilmapiirin näkökulmasta. Välillä Tinon ruokapaikan valintaan vaikuttaa myös se, että saako sieltä tilattua ruokaa noudettavaksi. Tino seuraa ravintolaa sosiaalisessa mediassa ja ravintolan verkkosivuilta hän tarkistaa, mitä uusia burgereita ravintolassa tarjotaan. 
 
 **Tavoitetila:** Tinon tavoite on löytää ravintoloita, jotka tarjoavat rennon ja viihtyisän ilmapiirin, jossa voi viettää aikaa opiskelijatapahtumissa  vertaistensa ja ystävien kanssa. Toisinaan Tino tilaa ruokansa netistä ja nauttii sen majoittumispaikassaan mieluummin kuin ravintolassa. Hän arvostaa ravintoloita, joissa on edullisia vaihtoehtoja opiskelijabudjetille ja joissa voi tuntea olonsa tervetulleeksi. Verkkosivulla on tärkeää mainita opiskelija-alennukset ja tuottaa sisältöä sosiaalisesta mediaan, jolloin sivusto tavoittaa opiskelijat. 
 
@@ -57,7 +57,7 @@ Asiakkaita rajaavia toimia ovat sijainti, rajallinen pöytämäärä, ravintolan
 ## 2. Käyttötapaukset ja tilanteet
 
 ### Käyttäjäpersoona 1/3
-Annika käyttää ravintolapalvelua matkustaessaan Rukan alueelle, joka tapahtuu pari kertaa vuoden aikana. Hän käy ravintolassa syömässä, koska ei halua valmistaa eväitä laskettelureissulle. Hän valitsee ravintolan sen sijainnin, ruokalistan ja palvelun nopeuden perusteella.  Annikan tapauksessa yleisin tapaus on tarkistaa ravintolan aukioloajat ja ruokalista verkosta ennen ravintolaan saapumista. Annika on lomareissussa ja on valmis joustamaan aikatauluissaan mennessään ravintolaan, joten hän ei varaa pöytää etukäteen. 
+Annika käyttää ravintolapalvelua matkustaessaan Rukan alueelle, joka tapahtuu pari kertaa vuoden aikana. Hän käy ravintolassa syömässä, koska ei halua valmistaa eväitä laskettelureissulle. Hän valitsee ravintolan sen sijainnin, ruokalistan ja palvelun nopeuden perusteella. Annikan tapauksessa yleisin tapaus on tarkistaa ravintolan aukioloajat ja ruokalista verkosta ennen ravintolaan saapumista. Annika on lomareissussa ja on valmis joustamaan aikatauluissaan mennessään ravintolaan, joten hän ei varaa pöytää etukäteen. 
 
 ### Käyttäjäpersoona 2/3
 Lauri käyttää ravintolaa vapaa-ajallaan ajanviettoon ruokailun merkeissä ystäviensä ja työkavereidensa kanssa. Hän arvostaa ruokalistan löytämistä vaivattomasti verkkosivuilta ja helppoa varaustoimintoa. Paikkakunnalla asuvana hän yleensä varaa verkkosivuilla pöydän etukäteen varmistaakseen paikan saatavuuden haluttuna ajankohtana. 
@@ -67,7 +67,15 @@ Tino käyttää ravintolapalveluita pääasiassa sosiaalisiin tapahtumiin ja kok
 
 ## 3. Käyttöliittymän prototyypit
 
-Lisää tekstiä.
+Kuusamolaisen ravintolan verkkosivujen yhteyteen luodaan ruuan tilaus ja pöytien varausjärjestelmä. Koska loppuprojektissani en luo kokonaan verkkosivuja uusiksi yritykselle, laitan etusivulle napit ruokalistan tarkasteluun, verkkotilaukselle ja pöydän varaamiselle. Näitä nappeja painaessa käyttäjä pääsee tilaus- ja varausjärjestelmään, jonne on varalta asiakkaita varten laitettu ravintolan sijainti ja aukioloajat esille. 
+
+![etusivu](etusivu.png)
+
+Menu - sivulla käyttäjä voi tarkastella ravintolan ruokalistaa, mutta myös tilata ruuan, kun klikkaa plusnäppäintä. Tämä ohjaa käyttäjän ruuan verkkotilaamis-sivulle. 
+
+![menusivu](menusivu.png)
+
+
 
 ## 4. Tietoarkkitehtuuri ja tekninen suunnittelu
 
