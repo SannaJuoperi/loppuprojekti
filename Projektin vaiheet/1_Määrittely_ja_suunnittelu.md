@@ -76,11 +76,15 @@ https://www.figma.com/proto/DpCYoA4Oxr4Pf4FRZ9G30x/ravintolatilaus_proto?node-id
 
 ## 4. Tietoarkkitehtuuri ja tekninen suunnittelu
 
-Lisää tekstiä.
+Verkkosivun tietoarkkitehtuuri on tehdä navigoinnista käyttäjäystävällinen, että nappien nimet ja sivujen sisältörakenne ovat selkeät. Verkkosivuilla tietoja käsitellään pöytien varausten yhteydessä ja verkkotilausten yhteydessä. Tietokantaan tallentuu pöytien varaustiedot (päivämäärä, aika, pöytäkoko ja käyttäjän tiedot) ja verkkotilauksessa ostoskoriin valitut tuotteet. 
+
+Verkkosivun tekninen suunnittelu: frontendin, backendin ja tietokannan. Frontendissä käytetään React.js. Backendissä käyteään Node.js ja Expresss. Backendissä on myös menu, varaukset ja tilaukset tallennettuna, josta tiedot voidaan hakea (endpoint). Tietokanta luodaan SQL-kielellä, jossa luodaan taulut ruokalistalle, varaukselle ja verkkotilauksille. Ruokalistan tauluun tallennetaan annokset, hinnat ja kuvaukset. Varausten tauluun päivämäärä, aika, pöydän koko ja käyttäjän tiedot. Verkkotilauksissa tallennetaan ostoskorin tuotteet, hinnat ja kappalemäärät. 
 
 ## 5. Projektinhallinta ja käyttäjätestaus
 
-Lisää tekstiä.
+Projekti etenee omalla aikataulullani, mutta itselläni on tarkka visio mitä pitää tehdä missäkin järjestyksessä. Otan mallia kurssin aikana tehdyistä harjoituksista, että sivusto alkaa rakentumaan. Aikaa annan projektille viikonloppuisin ja iltaisin töiden ja harrastusten jälkeen. Teen tarvittaessa projektinhallintaa varten githubissa project boardin, että voin seurata työskentelyn etenemistä. 
+
+Käyttäjätestausta tein jo prototyypissä navigoinnin testaamiselle. Varsinaisella sivulla pitää testata tallentuuko tiedot oikein, responsiivisuutta, käytettävyyttä ja sivuston nopeutta. Käyttäjätestauksia tehdään eri käyttäjäpersoonien tarpeista lähtien pöytien varaamiselle ja verkkotilauksen tekemiselle. 
 
 ## Lähteet
 
