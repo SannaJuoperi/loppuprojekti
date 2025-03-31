@@ -14,7 +14,7 @@ Asiakkaita rajaavia toimia ovat sijainti, rajallinen pöytämäärä, ravintolan
 
 ### Käyttäjäpersoona 1/3
 
-
+![kuva1](image-1.png)
 
 **Nimi:** Annika Mallikas, 30v. 
 
@@ -28,7 +28,7 @@ Asiakkaita rajaavia toimia ovat sijainti, rajallinen pöytämäärä, ravintolan
 
 ### Käyttäjäpersoona 2/3
 
-
+![kuva2](image.png)
 
 **Nimi:** Lauri Meikäläinen, 40v.
 
@@ -42,7 +42,7 @@ Asiakkaita rajaavia toimia ovat sijainti, rajallinen pöytämäärä, ravintolan
 
 ### Käyttäjäpersoona 3/3
 
-
+![kuva3](image-2.jpg)
 
 **Nimi:** Tino Tuutori, 25v.
 
