@@ -1,6 +1,6 @@
 # Projektin ensimmäinen vaihe - Määrittely ja suunnittelu
 
-Projektissani luodaan kuusamolaiselle ravintolalle järjestelmä ruuan tilaamista ja pöytien varaamista varten. Seuraavaksi segmentoin asiakkaat erillisiin kuluttajaryhmiin samanlaisten tarpeiden tai ominaisuuksien mukaan. Jaottelun voi tehdä demografisten tietojen (ikä, sukupuoli, sijainti), kiinnostuksen kohteiden (elämäntyyli, ostohistoria) tai käyttäytymisen (verkkoaktiivisuus, kulutustottumukset) perusteella (Markkinoinnin trendit 2022). 
+Projektissani luodaan kuusamolaiselle ravintolalle järjestelmä ruuan tilaamista ja pöytien varaamista varten. Projekti ei ole asiakastyö, mutta itselleni oli helpompi luoda olemassa olevalle yritykselle jotain siihen liittyvää. Aloitan raportin segmentoimalla asiakkaat erillisiin kuluttajaryhmiin samanlaisten tarpeiden tai ominaisuuksien mukaan. Jaottelun voi tehdä demografisten tietojen (ikä, sukupuoli, sijainti), kiinnostuksen kohteiden (elämäntyyli, ostohistoria) tai käyttäytymisen (verkkoaktiivisuus, kulutustottumukset) perusteella (Markkinoinnin trendit 2022). 
 
 ## 1. Käyttäjäpersoonat
 
@@ -69,8 +69,11 @@ Tino käyttää ravintolapalveluita pääasiassa sosiaalisiin tapahtumiin ja kok
 
 Kuusamolaisen ravintolan verkkosivujen yhteyteen luodaan ruuan tilaus ja pöytien varausjärjestelmä. Koska loppuprojektissani en luo kokonaan verkkosivuja uusiksi yritykselle, laitan etusivulle napit ruokalistan tarkasteluun, verkkotilaukselle ja pöydän varaamiselle. Näitä nappeja painaessa käyttäjä pääsee tilaus- ja varausjärjestelmään, jonne on varalta asiakkaita varten laitettu ravintolan sijainti ja aukioloajat esille. 
 
-Menu - sivulla käyttäjä voi tarkastella ravintolan ruokalistaa, mutta myös tilata ruuan, kun klikkaa plusnäppäintä. Tämä ohjaa käyttäjän ruuan verkkotilaamis-sivulle. 
+Menu - sivulla käyttäjä voi tarkastella ravintolan ruokalistaa. Tilaa - sivulla käyttäjä voi lisätä ostoskoriinsa ruokaa ja varaa - sivulla käyttäjä voi varata itselleen pöydän tiettynä ajankohtana. Loin yksinkertaisen proton Figmalla, josta voi käydä tarkastelemassa.   
 
+https://www.figma.com/proto/DpCYoA4Oxr4Pf4FRZ9G30x/ravintolatilaus_proto?node-id=0-1&t=S8O0SEWFUUK1pEY2-1
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/design/DpCYoA4Oxr4Pf4FRZ9G30x/ravintolatilaus_proto?node-id=0-1&embed-host=share" allowfullscreen></iframe>
 
 ## 4. Tietoarkkitehtuuri ja tekninen suunnittelu
 
