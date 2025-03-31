@@ -69,12 +69,7 @@ Tino käyttää ravintolapalveluita pääasiassa sosiaalisiin tapahtumiin ja kok
 
 Kuusamolaisen ravintolan verkkosivujen yhteyteen luodaan ruuan tilaus ja pöytien varausjärjestelmä. Koska loppuprojektissani en luo kokonaan verkkosivuja uusiksi yritykselle, laitan etusivulle napit ruokalistan tarkasteluun, verkkotilaukselle ja pöydän varaamiselle. Näitä nappeja painaessa käyttäjä pääsee tilaus- ja varausjärjestelmään, jonne on varalta asiakkaita varten laitettu ravintolan sijainti ja aukioloajat esille. 
 
-![etusivu](etusivu.png)
-
 Menu - sivulla käyttäjä voi tarkastella ravintolan ruokalistaa, mutta myös tilata ruuan, kun klikkaa plusnäppäintä. Tämä ohjaa käyttäjän ruuan verkkotilaamis-sivulle. 
-
-![menusivu](menusivu.png)
-
 
 
 ## 4. Tietoarkkitehtuuri ja tekninen suunnittelu
