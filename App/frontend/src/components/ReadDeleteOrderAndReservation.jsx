@@ -76,7 +76,7 @@ export default function ReadDeleteOrderAndReservation({ refresh, buttonClass = "
                 {reservations.map((reservation) => (
                     <li key={reservation.id}>
                         Reservation ID: {reservation.id}, Name: {reservation.customerName}, Email: {reservation.email}, Party Size: {reservation.partySize}, Date: {new Date(reservation.date).toLocaleDateString()}, Time: {reservation.time}
-                        <button onClick={() => handleReservationDelete(reservation.id)}className={buttonClass}>Delete</button>
+                        <button onClick={() => handleOrderDelete(order.id)} className={buttonClass}>Delete</button>
                     </li>
                 ))}
             </ul>
