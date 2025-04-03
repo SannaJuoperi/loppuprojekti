@@ -1,58 +1,31 @@
-import CreateOrderAndReservation from "./components/CreateOrderAndReservation.jsx";
-import UpdateOrderAndReservation from "./components/UpdateOrderAndReservation.jsx";
-import ReadDeleteOrderAndReservation from "./components/ReadDeleteOrderAndReservation.jsx";
-import { useState } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Home from "./components/Home.jsx";
+import MenuView from "./components/MenuView.jsx";
+import Order from "./components/Order.jsx";
+import Cart from "./components/Cart.jsx";
+import Reservation from "./components/Reservation.jsx";
 
 function App() {
-  const [refresh, setRefresh] = useState(0);
-
   return (
-    <div
-      className="container-fluid min-vh-100 d-flex flex-column align-items-center justify-content-center"
-      style={{ backgroundColor: "#f8f9fa" }}
-    >
-      <h1 className="text-center mb-4 text-dark fw-bold">
-        Restaurant Management
-      </h1>
-      <div className="w-75">
-        {/* Luonti osio */}
-        <div
-          className="card p-4 shadow-sm mb-4 bg-white border-0 rounded-3"
-          style={{ borderLeft: "5px solid #007bff" }}
-        >
-          <h2 className="text-center text-primary">Create Order or Reservation</h2>
-          <CreateOrderAndReservation
-            onActionCompleted={() => setRefresh((prev) => prev + 1)}
-            buttonClass="btn btn-primary w-100 mt-3"
-          />
-        </div>
-
-        {/* Lue ja poista osio */}
-        <div
-          className="card p-4 shadow-sm mb-4 bg-white border-0 rounded-3"
-          style={{ borderLeft: "5px solid #dc3545" }}
-        >
-          <h2 className="text-center text-danger">Orders and Reservations List</h2>
-          <ReadDeleteOrderAndReservation
-            refresh={refresh}
-            buttonClass="btn btn-danger w-100 mt-2"
-          />
-        </div>
-
-        {/* Päivitä osio */}
-        <div
-          className="card p-4 shadow-sm bg-white border-0 rounded-3"
-          style={{ borderLeft: "5px solid #ffc107" }}
-        >
-          <h2 className="text-center text-warning">Update Order or Reservation</h2>
-          <UpdateOrderAndReservation
-            onActionCompleted={() => setRefresh((prev) => prev + 1)}
-            buttonClass="btn btn-warning w-100 mt-3"
-          />
-        </div>
+    <Router>
+      <div className="container-fluid min-vh-100 d-flex flex-column align-items-center justify-content-center" style={{ backgroundColor: "#f8f9fa" }}>
+        <h1 className="text-center mb-4 text-dark fw-bold">Restaurant Management</h1>
+        <nav className="mb-4">
+          <Link to="/" className="btn btn-primary m-2">Home</Link>
+          <Link to="/menu" className="btn btn-secondary m-2">Menu</Link>
+          <Link to="/order" className="btn btn-success m-2">Tilaa</Link>
+          <Link to="/cart" className="btn btn-warning m-2">Ostoskori</Link>
+          <Link to="/reserve" className="btn btn-danger m-2">Varaa</Link>
+        </nav>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/menu" element={<MenuView />} />
+          <Route path="/order" element={<Order />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/reserve" element={<Reservation />} />
+        </Routes>
       </div>
-    </div>
+    </Router>
   );
 }
 
