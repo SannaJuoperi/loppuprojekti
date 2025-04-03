@@ -8,15 +8,23 @@ import Reservation from "./components/Reservation.jsx";
 function App() {
   return (
     <Router>
-      <div className="container-fluid min-vh-100 d-flex flex-column align-items-center justify-content-center" style={{ backgroundColor: "#f8f9fa" }}>
-        <h1 className="text-center mb-4 text-dark fw-bold">Restaurant Management</h1>
-        <nav className="mb-4">
-          <Link to="/" className="btn btn-primary m-2">Home</Link>
-          <Link to="/menu" className="btn btn-secondary m-2">Menu</Link>
-          <Link to="/order" className="btn btn-success m-2">Tilaa</Link>
-          <Link to="/cart" className="btn btn-warning m-2">Ostoskori</Link>
-          <Link to="/reserve" className="btn btn-danger m-2">Varaa</Link>
+      {/* Yläbanneri logolle */}
+      <header style={{ backgroundColor: "#000000", width: "100%", padding: "20px 0", color: "white" }}>
+        <div style={{ display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column" }}>
+          <img src="/logo.png" alt="Restaurant Logo" style={{ maxWidth: "100%", height: "auto" }} />
+        </div>
+      </header>
+
+      {/* Sisältö ja navigointi */}
+      <div className="container d-flex flex-column align-items-center justify-content-center min-vh-100" style={{ textAlign: "center", backgroundColor: "#f8f9fa" }}>
+      <nav className="nav-bar mb-4" style={{ display: "flex", justifyContent: "center", gap: "20px" }}>
+        <Link to="/" className="nav-btn">Home</Link>
+        <Link to="/menu" className="nav-btn">Menu</Link>
+        <Link to="/order" className="nav-btn">Tilaa</Link>
+        <Link to="/cart" className="nav-btn">Ostoskori</Link>
+        <Link to="/reserve" className="nav-btn">Varaa</Link>
         </nav>
+        
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/menu" element={<MenuView />} />

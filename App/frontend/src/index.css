@@ -35,23 +35,28 @@ h1 {
   line-height: 1.1;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
+.nav-btn {
+  color: #000000; /* Tekstin väri musta */
+  background: none; /* Ei taustaväriä */
+  border: none; /* Ei reunaviivaa */
+  padding: 5px 10px; /* Säädetty marginaali */
+  font-size: 18px; /* Suurempi fonttikoko */
+  text-decoration: none; /* Ei alleviivausta */
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: color 0.3s ease, font-weight 0.3s ease; /* Pehmeä siirtymä */
 }
-button:hover {
-  border-color: #646cff;
+
+.nav-btn:hover {
+  color: #000000; /* Hover-tekstin väri musta */
+  font-weight: bold; /* Boldataan teksti hover-tilassa */
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+
+.nav-btn:active {
+  font-weight: bold; /* Boldattu teksti klikattuna */
+}
+
+.nav-bar:hover .nav-btn:not(:hover) {
+  color: #BFC0C0; /* Muiden nappien teksti muuttuu harmaaksi hover-tilassa */
 }
 
 @media (prefers-color-scheme: light) {
