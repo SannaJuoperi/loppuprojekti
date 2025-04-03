@@ -8,7 +8,8 @@
 | 31.3.2025 | 2 | 1. Määrittely ja suunnittelu| Prototyypin ja ensimmäisen projektivaiheen tekstin viimeistely |
 | 1.4.2025 | 2 | 2.Perusrunko ja päätoiminnallisuudet| Kansiorakenteen luominen aloitettu |
 | 2.4.2025 | 2 | 2.Perusrunko ja päätoiminnallisuudet| Toimiva pohja rakennettu|
+| 3.4.2025 | 5 | 2.Perusrunko ja päätoiminnallisuudet| Navigointia parannettu ja sisältöä sivuille lisätty|
 
 |Yhteensä käytetyt tunnit|
 |     :---:      |
-|20|
+|25|
