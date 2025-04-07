@@ -9,7 +9,8 @@
 | 1.4.2025 | 2 | 2.Perusrunko ja päätoiminnallisuudet| Kansiorakenteen luominen aloitettu |
 | 2.4.2025 | 2 | 2.Perusrunko ja päätoiminnallisuudet| Toimiva pohja rakennettu|
 | 3.4.2025 | 5 | 2.Perusrunko ja päätoiminnallisuudet| Navigointia parannettu ja sisältöä sivuille lisätty|
+| 7.4.2025 | 3 | 2.Perusrunko ja päätoiminnallisuudet| Tietokannasta tiedon hakemista parannettu|
 
 |Yhteensä käytetyt tunnit|
 |     :---:      |
-|25|
+|28|
