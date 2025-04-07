@@ -102,28 +102,56 @@ app.get('/orders', async (req, res) => {
 });
 
 //Luo uusi varaus
+const { Op } = require('sequelize');
+
 app.post('/reservations', async (req, res) => {
-    try {
-        const { customerName, email, phoneNumber, date, time, partySize } = req.body;
-        if (!customerName || !email || !phoneNumber || !date || !time || !partySize) {
-            return res.status(400).json({ error: 'All reservation fields are required' });
-        }
-        const reservation = await Reservation.create({ customerName, email, phoneNumber, date, time, partySize });
-        res.status(201).json(reservation);
-    } catch (err) {
-        res.status(500).json({ error: err.message });
+  try {
+    const { customerName, email, phoneNumber, date, time, partySize } = req.body;
+
+    if (!customerName || !email || !phoneNumber || !date || !time || !partySize) {
+      return res.status(400).json({ error: 'Kaikki kentät ovat pakollisia' });
     }
+
+    const reservationStart = new Date(`${date}T${time}`);
+    const reservationEnd = new Date(reservationStart.getTime() + 90 * 60 * 1000); // +1h 30min
+
+    // Haetaan kaikki varaukset, joiden aika-ikkuna menee päällekkäin uuden kanssa
+    const existingReservations = await Reservation.findAll();
+
+    let totalOccupied = 0;
+
+    existingReservations.forEach((r) => {
+      const existingStart = new Date(`${r.date.toISOString().split('T')[0]}T${r.time}`);
+      const existingEnd = new Date(existingStart.getTime() + 90 * 60 * 1000);
+
+      const overlap = reservationStart < existingEnd && reservationEnd > existingStart;
+      if (overlap) {
+        totalOccupied += r.partySize;
+      }
+    });
+
+    if (totalOccupied + partySize > 20) {
+      return res.status(400).json({
+        error: `Varaus ei onnistu. Tälle ajalle on jo varattuna ${totalOccupied} paikkaa. Vapaita paikkoja on ${Math.max(0, 20 - totalOccupied)}.`,
+      });
+    }
+
+    const reservation = await Reservation.create({
+      customerName,
+      email,
+      phoneNumber,
+      date,
+      time,
+      partySize,
+    });
+
+    res.status(201).json(reservation);
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ error: err.message });
+  }
 });
 
-//Hae kaikki varaukset
-app.get('/reservations', async (req, res) => {
-    try {
-        const reservations = await Reservation.findAll();
-        res.status(200).json(reservations);
-    } catch (err) {
-        res.status(500).json({ error: err.message });
-    }
-});
 
 // Käynnistä server
 app.listen(port, () => {
