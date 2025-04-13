@@ -6,15 +6,15 @@ Tässä vaiheessa projektista on rakennettu perusrunko, jossa sovelluksen päät
 
 Projekti toimii paikallisesti kehitysympäristössään Visual Studio Codessa. Node.js toimii taustajärjestelmänä, ja Reactilla rakennettu käyttöliittymä toimii frontendissä. Tietokantana käytetään SQLitea nopean kehityksen ja testauksen vuoksi.
 
-## [2. Taustajärjestelmä](backend/)
+## [2. Taustajärjestelmä](App/backend/)
 
 Taustajärjestelmä on toteutettu Node.js:llä ja Expressillä. Se tarjoaa REST-rajapinnan tilausten ja pöytävarausten hallintaan. API:n avulla frontend voi lähettää tilauksia ja varauksia backendille JSON-muodossa. Palvelin validoi tiedot ja tallentaa ne tietokantaan.
 
-## [3. Käyttöliittymä](frontend/)
+## [3. Käyttöliittymä](App/frontend/)
 
 Käyttöliittymä on toteutettu Reactilla. Käyttäjä voi selata ruokalistaa, tehdä tilauksen ja varata pöydän. Tilaukset lisätään ostoskoriin ja lähetetään palvelimelle. Käyttöliittymässä on lomakkeet tilausta ja varausta varten sekä ilmoitukset onnistuneista tai epäonnistuneista toiminnoista.
 
-## [4. Tietokanta](\database.db)
+## [4. Tietokanta](App/backend/database.db)
 
 Tietokantana toimii SQLite. Se on kevyt ja helposti integroitavissa paikalliseen kehitysympäristöön ilman erillistä tietokantapalvelinta. Tietokannassa on kaksi taulua: Order ja Reservation. Order-taulu tallentaa tilatut ruoat ja kokonaishinnan. Reservation-taulu tallentaa asiakkaan varaustiedot, kuten nimen, sähköpostin, ajankohdan ja henkilömäärän.
 
