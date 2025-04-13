@@ -25,8 +25,20 @@ const Order = sequelize.define('Order', {
         autoIncrement: true,
         primaryKey: true
     },
+    customerName: {
+        type: DataTypes.STRING,
+        allowNull: false
+    },
+    pickupDate: {
+        type: DataTypes.DATEONLY,
+        allowNull: false
+    },
+    pickupTime: {
+        type: DataTypes.TIME,
+        allowNull: false
+    },
     foodItems: {
-        type: DataTypes.JSON, 
+        type: DataTypes.JSON,
         allowNull: false
     },
     totalPrice: {
@@ -36,6 +48,7 @@ const Order = sequelize.define('Order', {
 }, {
     timestamps: false
 });
+
 
 const Reservation = sequelize.define('Reservation', {
     id: {
@@ -73,22 +86,26 @@ const Reservation = sequelize.define('Reservation', {
 
 // Synkronoi tietokanta
 sequelize.sync()
-    .then(() => console.log("Database synchronized"))
-    .catch(err => console.error("Error synchronizing database:", err));
+    .then(() => console.log("Tietokanta synkronoitu."))
+    .catch(err => console.error("Virhe tietokantaa synkronoinnissa:", err));
 
 // Luo uusi tilaus
 app.post('/orders', async (req, res) => {
     try {
-        const { foodItems, totalPrice } = req.body;
-        if (!foodItems || !totalPrice) {
-            return res.status(400).json({ error: 'Food items and total price are required' });
+        const { customerName, pickupDate, pickupTime, foodItems, totalPrice } = req.body;
+
+        if (!customerName || !pickupDate || !pickupTime || !foodItems || !totalPrice) {
+            return res.status(400).json({ error: 'Kaikki kentät ovat pakollisia.' });
         }
-        const order = await Order.create({ foodItems, totalPrice });
+
+        const order = await Order.create({ customerName, pickupDate, pickupTime, foodItems, totalPrice });
         res.status(201).json(order);
     } catch (err) {
+        console.error("Virhe tilauksen tallentamisessa:", err);
         res.status(500).json({ error: err.message });
     }
 });
+
 
 
 //Hae kaikki varaukset
