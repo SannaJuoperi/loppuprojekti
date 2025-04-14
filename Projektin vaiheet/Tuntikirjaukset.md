@@ -13,8 +13,9 @@
 | 11.4.2025 | 3 | 2.Perusrunko ja päätoiminnallisuudet| Tietokantaa yritetty päivittää PostgreSQL siinä onnistumatta. Pidetään tietokanta SQLitenä. |
 | 13.4.2025 | 2 | 2.Perusrunko ja päätoiminnallisuudet| Projektin toisen vaiheen kirjoittaminen. |
 | 14.4.2025 | 3 | 2.Perusrunko ja päätoiminnallisuudet| Sovelluksen testaamista Vitest, Playwright ja K6 -testien avulla. |
+| 14.4.2025 | 1 | 2.Perusrunko ja päätoiminnallisuudet|  Yritetty lisätä verkkosivu Azure Static Web App:ksi siinä onnistumatta. Sivu toimii paikallisesti. |
 
 
 |Yhteensä käytetyt tunnit|
 |     :---:      |
-|36|
+|37|
