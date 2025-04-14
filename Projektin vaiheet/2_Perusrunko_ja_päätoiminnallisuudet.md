@@ -44,7 +44,21 @@ Koodi on jaettu loogisiin osiin, ja toiminnallisuudet on toteutettu omissa tiedo
 
 ## 8. Testaus ja virheenkäsittely
 
-Toiminnallisuuksia on testattu manuaalisesti käyttöliittymän kautta. Syötteiden validointia on tehty palvelinpuolella, esim. pakollisten kenttien tarkistus ja varausaikojen päällekkäisyyksien esto. Virhetilanteet palautetaan selkeänä viestinä frontendille JSON-muodossa.
+[Playwright - testi](../App/frontend/test_playwright/Example.spec.ts) tarkistaa sovellus näyttää Are you Ok? - otsikon käyttöliittymässä. Tämän testin tärkein toiminnallisuus ja anti on se, että sivu lataus onnistuu ja otsikko löytyy DOMista. 
+
+[Vitest-yksikkötesti](../App/frontend/test_vitest/NameForm.test.jsx) tarkistaa, että NameForm - komponentti renderöityy oikein ja lomakekenttää voidaan muuttaa eli syötteiden käsittely toimii. 
+
+Kokeilin muitakin testejä tehdä tekoälyn avustamana, mutta ne palauttivat virheilmoituksia, joista en päässyt eteenpäin. Tässä listattuna testit, joista olisi hyötyä sivuston toiminnallisuuden ja validoinnin testaamisessa.  
+
+-Playwright-testi: Varausjärjestelmän tulisi tallentaa käyttäjän tietoja. Virhe: Elementit, kuten input[name="name"] ei löytynyt ajoissa DOMista. Lomakekenttien lataus viivästyi tai sitten selektorit eivät olleet yhteensopivia sovelluksen rakenteen kanssa. 
+
+-K6-testi: Lomakkeen täyttäminen. Virhe: Selaimen simulaatio ei tunnistanut lomakekenttiä eikä palvelin vastannut odotetusti. 
+
+-K6-testi: Kuormitustesti. Kuinka monta käyttäjää voi sivulle mennä samanaikaisesti. Virheitä tuli samanaikaisista prosesseista ja siitä, kun k6 yritti poistaa väliaikaisia tiedostoja, mutta käyttöoikeudet estivät sen. 
+
+-Vitest-testi: Palvelinpuolen validointi. Virhe: Syötteiden validointi epäonnistui palvelimella, koska data ei täyttänyt odotettuja ehtoja. Ongelmaa oli puutteellisissa ja virheellisissä syötteissä tai sitten palvelimen validointisäännöt olivat liian tiukat. 
+
+-ReservationAPI-testi: Tarkistaa että varaus voidaan tehdä onnistuneesti. Virheitä tuli HTTP-statuskoodista, joka palautti 201 odotetun 200:n (OK) sijaan. Päivämäärän muoto erosi odotetusta, koska palvelin palautti päivämäärän ISO 8601 -muodossa. Lisäksi palvelimessa tuli virheilmoitusta statuskoodi 500:sta, joka estää varaustietojen tallennuksen.
 
 ## 9. Käyttöliittymä ja vuorovaikutus
 

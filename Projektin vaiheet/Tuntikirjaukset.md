@@ -11,8 +11,10 @@
 | 3.4.2025 | 5 | 2.Perusrunko ja päätoiminnallisuudet| Frontend toimii Reactilla. Navigointia parannettu ja sisältöä frontendiin lisätty. |
 | 7.4.2025 | 3 | 2.Perusrunko ja päätoiminnallisuudet| SQLite pohjaisesta tietokannasta varaus- ja verkkotilaustietojen hakemista parannettu. |
 | 11.4.2025 | 3 | 2.Perusrunko ja päätoiminnallisuudet| Tietokantaa yritetty päivittää PostgreSQL siinä onnistumatta. Pidetään tietokanta SQLitenä. |
-| 13.4.2025 | x | 2.Perusrunko ja päätoiminnallisuudet| Projektin toisen vaiheen kirjoittaminen. |
+| 13.4.2025 | 2 | 2.Perusrunko ja päätoiminnallisuudet| Projektin toisen vaiheen kirjoittaminen. |
+| 14.4.2025 | 3 | 2.Perusrunko ja päätoiminnallisuudet| Sovelluksen testaamista Vitest, Playwright ja K6 -testien avulla. |
+
 
 |Yhteensä käytetyt tunnit|
 |     :---:      |
-|32|
+|36|
