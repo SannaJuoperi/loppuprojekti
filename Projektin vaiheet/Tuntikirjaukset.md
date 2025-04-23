@@ -14,8 +14,9 @@
 | 13.4.2025 | 2 | 2.Perusrunko ja päätoiminnallisuudet| Projektin toisen vaiheen kirjoittaminen. |
 | 14.4.2025 | 3 | 2.Perusrunko ja päätoiminnallisuudet| Sovelluksen testaamista Vitest, Playwright ja K6 -testien avulla. |
 | 14.4.2025 | 1 | 2.Perusrunko ja päätoiminnallisuudet|  Yritetty lisätä verkkosivu Azure Static Web App:ksi siinä onnistumatta. Sivu toimii paikallisesti. |
+| 23.4.2025 | 1 | 3.Jatkokehitys|  Aloin suunnittelemaan mahdollisia jatkokehittämistoimia. Korjattu server.js:n tiedoston Date-objekti, että saa varauksen tehtyä onnistuneesti.|
 
 
 |Yhteensä käytetyt tunnit|
 |     :---:      |
-|37|
+|38|
