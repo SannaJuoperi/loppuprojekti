@@ -10,9 +10,9 @@ Projektissa loin helpot verkkosivut ravintolan käyttöön. Sivuilla onnistuu ta
 
 | Käyttötapaus | Toteutettu (Kyllä/Ei) | Selitys / Demotiedot |
 |----------|----------------------|------------------------|
-| Asiakas lisää tuotteita ostoskoriin | Kyllä | Tuotteiden lisäys ja poisto toimivat ostoskorissa. [Lisäys] (https://youtu.be/YzRoawtUrmg?t=8) ja [poisto] (https://youtu.be/YzRoawtUrmg?t=17)|
-| Asiakas tekee tilauksen ostoskorista | Kyllä | Tilaukset tallennetaan tietokantaan onnistuneesti. [Tilaus] (https://youtu.be/YzRoawtUrmg?t=31)|
-| Asiakas tekee pöytävarauksen | Kyllä | Pöydän varaaminen tallennetaan tietokantaan onnistuneesti. Kapasiteettirajoitus toimii enintään 20 hengelle. [Pöytävaraus] (https://youtu.be/YzRoawtUrmg?t=105)|
+| Asiakas lisää tuotteita ostoskoriin | Kyllä | Tuotteiden lisäys ja poisto toimivat ostoskorissa. [Lisäys](https://youtu.be/YzRoawtUrmg?t=8) ja [poisto](https://youtu.be/YzRoawtUrmg?t=17)|
+| Asiakas tekee tilauksen ostoskorista | Kyllä | Tilaukset tallennetaan tietokantaan onnistuneesti. [Tilaus](https://youtu.be/YzRoawtUrmg?t=31)|
+| Asiakas tekee pöytävarauksen | Kyllä | Pöydän varaaminen tallennetaan tietokantaan onnistuneesti. Kapasiteettirajoitus toimii enintään 20 hengelle. [Pöytävaraus](https://youtu.be/YzRoawtUrmg?t=105)|
 | Asiakas näkee kaikki tehdyt varaukset | Ei | Tämä ominaisuus ei saatu toteutumaan. Vaati jatkokehitystä. |
 | Käyttäjän kirjautuminen | Ei | Tämä ominaisuus ei saatu toteutumaan. Vaati jatkokehitystä. |
 | Käyttäjän rekistöröityminen | Ei | Tämä ominaisuus ei saatu toteutumaan. Vaati jatkokehitystä. |
@@ -100,4 +100,4 @@ Tämä vaatii:
 
 ## Linkki esitykseen
 
-[Demo] (https://youtu.be/YzRoawtUrmg)
+[Demo](https://youtu.be/YzRoawtUrmg)
