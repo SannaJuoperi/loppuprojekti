@@ -71,7 +71,7 @@ export default function Cart() {
               alignItems: "center",
             }}
           >
-            <span>{item.item} - €{item.price}</span>
+            <span>{item.item} - {item.price}€</span>
             <button
               onClick={() => {
                 const updatedCart = cart.filter((_, i) => i !== index);
@@ -91,12 +91,12 @@ export default function Cart() {
               onMouseOver={(e) => (e.target.style.backgroundColor = "#640002")} // Hover-tila
               onMouseOut={(e) => (e.target.style.backgroundColor = "#7F0002")} // Normaali tila
             >
-              Poista
+              X
             </button>
           </div>
         ))}
       </div>
-      <h3>Yhteensä: €{cart.reduce((acc, item) => acc + item.price, 0)}</h3>
+      <h3>Yhteensä: {cart.reduce((acc, item) => acc + item.price, 0)}€</h3>
 
       {/* Lomake tilauksen tekemiseen */}
       <form onSubmit={handleSubmit} style={{ maxWidth: "500px", width: "100%", marginTop: "20px" }}>
@@ -175,11 +175,11 @@ export default function Cart() {
                   backgroundColor: "#f9f9f9",
                 }}
               >
-                {item.item} - €{item.price}
+                {item.item} - {item.price}€
               </div>
             ))}
           </div>
-          <p><strong>Kokonaishinta:</strong> €{orderDetails.totalPrice}</p>
+          <p><strong>Kokonaishinta:</strong> {orderDetails.totalPrice}€</p>
         </div>
       )}
     </div>
